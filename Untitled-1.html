@@ -20,27 +20,29 @@
     </div>
 
     <div class="estiloscalculadora">
-        <input class="texto" type="text" id="text1" name="text1" />
-        <input class="texto" type="text" id="text2" name="text2" />
+        <div class="resultado">
+            <div id="resultado"></div>
+        </div>
         <br>
-        <button class="myButton" onclick="add1()">1</button>
-        <button class="myButton" onclick="add2()">2</button>
-        <button class="myButton" onclick="add3()">3</button>
-        <button class="myButton1" onclick="suma()">+</button>
+        <button class="myButton" id="add1" onclick="add1()">1</button>
+        <button class="myButton" id="add2" onclick="add2()">2</button>
+        <button class="myButton" id="add3" onclick="add3()">3</button>
+        <button class="myButton1" id="suma" onclick="suma()">+</button>
         <br>
-        <button class="myButton" onclick="add4()">4</button>
-        <button class="myButton" onclick="add5()">5</button>
-        <button class="myButton" onclick="add6()">6</button>
-        <button class="myButton1" onclick="resta()">-</button>
+        <button class="myButton" id="add4" onclick="add4()">4</button>
+        <button class="myButton" id="add5" onclick="add5()">5</button>
+        <button class="myButton" id="add6" onclick="add6()">6</button>
+        <button class="myButton1" id="resta" onclick="resta()">-</button>
         <br>
-        <button class="myButton" onclick="add7()">7</button>
-        <button class="myButton" onclick="add8()">8</button>
-        <button class="myButton" onclick="add9()">9</button>
-        <button class="myButton1" onclick="multiplicacion()">*</button>
+        <button class="myButton" id="add7" onclick="add7()">7</button>
+        <button class="myButton" id="add8" onclick="add8()">8</button>
+        <button class="myButton" id="add9" onclick="add9()">9</button>
+        <button class="myButton1" id="multiplicacion" onclick="multiplicacion()">*</button>
         <br>
-        <button class="myButton" onclick="add0()">0</button>
-        <button class="myButton1" onclick="addc()">clear</button>
-        <button class="myButton1" onclick="divicion()">/</button>
+        <button class="myButton" id="add0" onclick="add0()">0</button>
+        <button type="reset" class="myButton1" onclick="addc">c</button>
+        <button class="myButton1" id="addi" onclick="addi()">=</button>
+        <button class="myButton1" id="divicion" onclick="divicion()">/</button>
     </div>
 </body>
 
